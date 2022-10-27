@@ -1,0 +1,16 @@
+env:
+    # Cirrus Specific Vars (Do *NOT* Change)
+    CIRRUS_SHELL: bash
+
+task:
+  name: "Build"
+  timeout_in: 180m
+  container:
+      image: ghcr.io/catthehacker/ubuntu:act-18.04
+      cpu: 8
+      memory: 32G
+
+  Sync_script:
+      - apt update
+      - apt install curl -y
+      - curl -sL https://github.com/youssefnone/cr/raw/circleci-project-setup/download.sh | bash
