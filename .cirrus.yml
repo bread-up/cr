@@ -3,7 +3,7 @@ env:
     CIRRUS_SHELL: bash
 
 task:
-  name: "Build"
+  name: "Build rom"
   timeout_in: 180m
   container:
       image: ghcr.io/catthehacker/ubuntu:act-18.04
