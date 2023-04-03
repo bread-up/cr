@@ -13,4 +13,4 @@ task:
   Sync_script:
       - apt update
       - apt install curl -y
-      - curl -sL https://github.com/bread-up/my_tools-2/raw/rom/sync.sh | bash
+      - curl -sL https://github.com/bread-up/my_tools-2/raw/main/rom/sync.sh | bash
