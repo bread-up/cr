@@ -1,5 +1,5 @@
 env:
-    # Cirrus Specific .Var.s (Do *NOT* Change)
+    # Cirrus Specific Vars (Do *NOT* Change)
     CIRRUS_SHELL: bash
 
 task:
